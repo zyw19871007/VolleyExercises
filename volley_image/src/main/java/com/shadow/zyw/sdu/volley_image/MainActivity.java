@@ -1,12 +1,9 @@
-package com.shadow.zyw.sdu.volleyexercises;
+package com.shadow.zyw.sdu.volley_image;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -15,7 +12,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RequestQueue mQueue =Volley.newRequestQueue(this);
     }
 
     @Override
